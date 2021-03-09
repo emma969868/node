@@ -1,0 +1,10 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /etc
+hooks:
+  AfterInstall:
+    - location: script/afterinstall.sh
+      timeout: 300
+      runas: root
