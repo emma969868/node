@@ -1,0 +1,22 @@
+{
+  "name": "node-app-example",
+  "version": "1.0.0",
+  "description": "Simple NodeJS App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siri-chevuri/node-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/siri-chevuri/node-app/issues"
+  },
+  "homepage": "https://github.com/siri-chevuri/node-app#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
