@@ -3,8 +3,3 @@ os: linux
 files:
   - source: /
     destination: /etc
-hooks:
-  AfterInstall:
-    - location: script/afterinstall.sh
-      timeout: 300
-      runas: root
