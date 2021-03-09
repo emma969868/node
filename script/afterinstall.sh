@@ -1,2 +1,2 @@
 #!/bin/bash
-node app.js
+sudo node app.js
